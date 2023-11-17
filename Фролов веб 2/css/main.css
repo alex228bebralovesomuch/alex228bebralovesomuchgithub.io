@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color:#fff;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow:0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+@font-face{
+	font-family: robotto;
+	src:url(../fonts/Robotto-regular.ttf);
+}
+
+
+body{
+	background-color:#efefef;
+	font-family: Robotto;
+}
+.photo{
+	width:20vw;
+	height: 20vh;
+	margin: 20px;
+	background-color: green;
+	background-position:center;
+	background-size: cover;
+	transition: all 0.5s ease;	
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+
+}
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.8);
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+.cat1{
+	background-image:url(../img/cat1.jpg);
+}
+.cat2{
+	background-image:url(../img/cat2.jpg);
+}
+.cat3{
+	background-image:url(../img/cat3.jpg);
+}
+.cat4{
+	background-image:url(../img/cat4.gif);
+}
+.cat5{
+	background-image:url(../img/cat5.jpg);
+}
+.cat6{
+	background-image:url(../img/cat6.jpg);
+}
+.cat7{
+	background-image:url(../img/cat7.jpg);
+}
+.cat8{
+	background-image:url(../img/cat8.jpg);
+}
+.cat9{
+	background-image:url(../img/cat9.jpg);
+}
+.cat10{
+	background-image:url(../img/cat10.jpg);
+}
